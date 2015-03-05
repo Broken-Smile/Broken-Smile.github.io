@@ -1,46 +1,111 @@
 body{
-		 	margin: 0;
-		 	padding: 0;
-		 }
-		 ul{
-		 	margin: 0;
-		 	padding: 0;
-		 }
-		 ul li{
-		 	list-style: none;
-		 	overflow: hidden;
-		 	height: 600px;
-		 }
+	margin: 0;
+	padding: 0;
+}
+ul{
+	margin: 0;
+		 padding: 0;
+}
+ ul li{
+	list-style: none;
+ 	overflow: hidden;
+ 	height: 600px;
+}
+h1{
+	color: black;
+ 	font-size: 48px;
+ 	text-align: center;
+ 	margin: 0;
+}
+
+ .parallax-background{
+	height: 700px;
+}
+
+.box-1{
+ 	background-color: #faf7f2;
+		 	
+}
+
+.box-2{
+	background-image: url('../img/3d.jpg');
+}
+
+.box-3{
+	background-image: url('../img/vector.jpg');
+}
+
+.box-4{
+	background-image: url('../img/black-wood.jpg');
+}
+
+
+/*Media Query*/
+@media (max-width: 320px) {
+
+h1{
+	color: white;
+ 	font-size: 20px;
+ 	text-align: center;
+ 	margin: 0;
+}	
+
+	.parallax-background{
+	width: 100%;
+	height: 400px;
+}
+
+.box-1{
+	width: 100%;
+	height: 300px;
+}
+
+.box-2{
+	width: 100%;
+	height: 300px;
+}
+
+.box-3{
+	width: 100%;
+	height: 300px;
+}
+
+.box-4{
+	width: 100%;
+	height: 600px;
+}
+
+}
+
+@media (max-width: 1024px) {
+
+	.parallax-background{
+	width: 100%;
+	height: 600px;
+}
+
+.box-1{
+	width: 100%;
+	height: 600px;
+}
+
+.box-2{
+	width: 100%;
+	height: 600px;
+}
+
+.box-3{
+	width: 100%;
+	height: 600px;
+}
+
+.box-4{
+	width: 100%;
+	height: 600px;
+}
+
+}
 
 		
-
-		 .parallax-background{
-		 	height: 700px;
-		 }
-
-		 .box-1{
-		 	background-image: url('../img/colorful.jpg');
-		 	
-		 }
-
-		 .box-2{
-		 	background-image: url('../img/3d.jpg');
-		 }
-
-		 .box-3{
-		 	background-image: url('../img/vector.jpg');
-		 }
-
-		 .box-4{
-		 	background-image: url('../img/black-wood.jpg');
-		 }
-
-		 .box-5{
-		 	background-image: url('');
-		 }
-
-		 .box-6{
-		 	background-image: url('');
-		 }
 
 
